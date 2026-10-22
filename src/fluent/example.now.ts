@@ -30,3 +30,48 @@ BusinessRule({
     when: 'after',
     active: true,
 })
+
+BusinessRule({
+    name: 'BR1',
+    table: 'x_1644142_ekkles_0_donation',
+    when: 'after',
+    action: ['insert'],
+    script: Now.include('../server/BR_1.js'),
+    order: 100,
+    active: true,
+    addMessage: true,
+    message: '<p>Hello, World</p>',
+    abortAction: false,
+    $id: Now.ID['br1'],
+})
+
+BusinessRule({
+    name: 'BR2',
+    table: 'x_1644142_ekkles_0_donation',
+    when: 'after',
+    action: ['insert'],
+    script: Now.include('../server/BR_2.js'),
+    order: 200,
+    active: true,
+    addMessage: true,
+    message: '<p>Hello, World</p>',
+    abortAction: false,
+    $id: Now.ID['br2'],
+})
+
+BusinessRule({
+    name: 'BR3',
+    table: 'x_1644142_ekkles_0_donation',
+    when: 'after',
+    action: ['insert'],
+    script: script `(function executeRule(current, previous /*null when async*/) {
+	// Add your code here
+
+})(current, previous);`,
+    order: 300,
+    active: true,
+    addMessage: true,
+    message: '<p>Hello, World</p>',
+    abortAction: false,
+    $id: Now.ID['br3'],
+})

@@ -73,6 +73,18 @@ declare global {
                         table: 'sys_script'
                         id: 'e89d9bd3cd5040749a0c67d39af4b29b'
                     }
+                    br1: {
+                        table: 'sys_script'
+                        id: '9f820714041048bf93c8b425803552fe'
+                    }
+                    br2: {
+                        table: 'sys_script'
+                        id: '9b2baa0b2f6349e5abeb53527d877a5e'
+                    }
+                    br3: {
+                        table: 'sys_script'
+                        id: 'ba2cd65eb4814c94bc9ca1805935f457'
+                    }
                     cs0: {
                         table: 'sys_script_client'
                         id: '4573539eb85c45dbaee5532ab24262a2'
@@ -100,6 +112,14 @@ declare global {
                     package_json: {
                         table: 'sys_module'
                         id: '220b7e0733864e5e8888d8890aa2f5d8'
+                    }
+                    src_server_BR_1_js: {
+                        table: 'sys_module'
+                        id: '3bed7bdae35a463d915032178b07b82e'
+                    }
+                    src_server_BR_2_js: {
+                        table: 'sys_module'
+                        id: '32401486cb9c466886f733c8b7fc467b'
                     }
                     src_server_script_ts: {
                         table: 'sys_module'
