@@ -229,6 +229,17 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: '0c152981a581428f9777ec167105ccfa'
+                        key: {
+                            name: 'x_756426_ssce_res_candidate_registration'
+                            element: 'registration_status'
+                            value: 'cancelled'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '0d3e5a5aa2434c6ea89d0e379e347c3f'
                         key: {
@@ -380,6 +391,17 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: '1768a47419fb4829aaba66db8ec1b100'
+                        key: {
+                            name: 'x_756426_ssce_res_candidate_registration'
+                            element: 'registration_status'
+                            value: 'approved'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '17fbf064d28a401984c499c694361d72'
                         key: {
@@ -415,6 +437,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '1a0f4ac586374aea919dad6d83371ec5'
+                        key: {
+                            name: 'x_756426_ssce_res_candidate_registration'
+                            element: 'registration_status'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '1a1af8f5359a40f2a46e8f5a42ec9734'
                         key: {
@@ -439,6 +470,17 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: '239a17fb505f446b96f98d04519e5d5e'
+                        key: {
+                            name: 'x_756426_ssce_res_candidate_registration'
+                            element: 'registration_status'
+                            value: 'submitted'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_db_object'
                         id: '252ceb81834c1310e2fd55a6feaad30d'
                         key: {
@@ -459,6 +501,25 @@ declare global {
                         key: {
                             name: 'x_756426_ssce_res_candidate_result'
                             element: 'subject'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '2e3ab7eb5827445386452b1f720a01e3'
+                        key: {
+                            name: 'x_756426_ssce_res_candidate_registration'
+                            element: 'registration_status'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '2e688ca7a0f541edb3f80044d1d280a4'
+                        key: {
+                            name: 'x_756426_ssce_res_candidate_registration'
+                            element: 'registration_status'
+                            value: 'completed'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -627,6 +688,17 @@ declare global {
                     },
                     {
                         table: 'sys_choice'
+                        id: '4740cacd18dc438d92b321063a08a696'
+                        key: {
+                            name: 'x_756426_ssce_res_candidate_registration'
+                            element: 'registration_status'
+                            value: 'rejected'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
                         id: '479c778183cc1310e2fd55a6feaad343'
                         key: {
                             name: 'x_756426_ssce_res_candidate_registration'
@@ -758,6 +830,17 @@ declare global {
                                 }
                             }
                             element: 'sys_updated_by'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '537190e183c44702908342349446646d'
+                        key: {
+                            name: 'x_756426_ssce_res_candidate_registration'
+                            element: 'registration_status'
+                            value: 'archived'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -1288,6 +1371,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice_set'
+                        id: '87483cf9b7c6461d9973606d067222a1'
+                        key: {
+                            name: 'x_756426_ssce_res_candidate_registration'
+                            element: 'registration_status'
+                        }
+                    },
+                    {
                         table: 'sys_security_acl_role'
                         id: '8b2cef81834c1310e2fd55a6feaad315'
                         key: {
@@ -1356,6 +1447,17 @@ declare global {
                                     name: 'x_756426_ssce_res.read'
                                 }
                             }
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '90d54ad0c4754639a855845829cbf5b8'
+                        key: {
+                            name: 'x_756426_ssce_res_candidate_registration'
+                            element: 'registration_status'
+                            value: 'draft'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
@@ -1465,6 +1567,17 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: '98c2041ccb0b4e2ab36ca39daac1b4ba'
+                        key: {
+                            name: 'x_756426_ssce_res_candidate_registration'
+                            element: 'registration_status'
+                            value: 'resubmitted'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_ui_list_element'
                         id: '9ad33f01838c1310e2fd55a6feaad37b'
                         deleted: false
@@ -1552,6 +1665,17 @@ declare global {
                         key: {
                             name: 'x_756426_ssce_res_candidate_registration'
                             element: 'last_name'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'a6004aab5fca4f13b334bf8e5073a9cd'
+                        key: {
+                            name: 'x_756426_ssce_res_candidate_registration'
+                            element: 'registration_status'
+                            value: 'under_review'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {

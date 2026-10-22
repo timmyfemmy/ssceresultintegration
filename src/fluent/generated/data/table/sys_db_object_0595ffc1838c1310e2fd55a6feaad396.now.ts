@@ -18,6 +18,49 @@ export const x_756426_ssce_res_candidate_registration = Table({
     label: 'Candidate Registration',
     name: 'x_756426_ssce_res_candidate_registration',
     schema: {
+        registration_status: ChoiceColumn({
+            dropdown: 'dropdown_without_none',
+            label: 'Registration status',
+            maxLength: 40,
+            choices: {
+                draft: {
+                    label: 'Draft',
+                    sequence: 0,
+                },
+                submitted: {
+                    label: 'Submitted',
+                    sequence: 1,
+                },
+                under_review: {
+                    label: 'Under review',
+                    sequence: 2,
+                },
+                approved: {
+                    label: 'Approved',
+                    sequence: 3,
+                },
+                rejected: {
+                    label: 'Rejected',
+                    sequence: 4,
+                },
+                resubmitted: {
+                    label: 'Resubmitted',
+                    sequence: 5,
+                },
+                cancelled: {
+                    label: 'Cancelled',
+                    sequence: 6,
+                },
+                completed: {
+                    label: 'Completed',
+                    sequence: 7,
+                },
+                archived: {
+                    label: 'Archived',
+                    sequence: 8,
+                },
+            },
+        }),
         candidate_number: StringColumn({
             label: 'Candidate number',
             maxLength: 40,
