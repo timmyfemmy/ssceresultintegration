@@ -1,0 +1,45 @@
+{
+  "scope": "x_756426_ssce_res",
+  "scopeId": "4538a95f10ee4116ba565bac83698bd6",
+  "name": "SSCE Result Integration",
+  "tsconfigPath": "./src/server/tsconfig.json",
+  //"ignoreTransformTableList": ["sys_ui_list", "sys_ui_section"]
+}
+/*
+{
+  "scope": "x_snc_example_app",
+  "scopeId": "2f8400eb07426110f736e28f69d3017a",
+  "name": "ExampleApp",
+  "dependencies": {
+    "global": {
+      "tables": ["incident"],
+      "roles": ["admin"],
+    },
+    "x_custom": {
+      "tables": ["custom_table"]
+    }
+  },
+  "metadataDir": "metadata",
+  "fluentDir": "src/fluent",
+  "generatedDir": "generated",
+  "serverModulesDir": "src/server",
+  "clientDir": "src/client",
+  "appOutputDir": "dist/app",
+  "staticContentDir": "dist/static",
+  "packOutputDir": "target",
+  "modulePaths": {
+      "src/server/*.ts": "dist/server/*.js",
+    },
+  "staticContentPaths": {
+      "src/client/*.html": "dist/static/*.html",
+    },
+  "ignoreTransformTableList": ["ua_table_licensing_config", "sys_embedded_help_role"],
+  "taxonomy": {
+        "mapping": {
+            "sys_script": "scripts/server/rules",
+            "custom_table": "my-custom-folder/my-nested-folder"
+        },
+        "fallbackFolderName": "unclassified" 
+    }
+}
+    */

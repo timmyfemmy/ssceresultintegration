@@ -1,0 +1,7 @@
+import { List, default_view } from '@servicenow/sdk/core'
+
+List({
+    table: 'x_756426_ssce_res_subject',
+    view: default_view,
+    columns: ['sys_created_on', 'sys_created_by', 'sys_updated_on', 'sys_updated_by', 'sys_mod_count'],
+})
