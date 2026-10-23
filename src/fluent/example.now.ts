@@ -5,7 +5,7 @@ import { showStateUpdate } from '../server/script'
 ClientScript({
     $id: Now.ID['cs0'],
     name: 'my_client_script',
-    table: 'incident',
+    table: 'x_756426_ssce_res_country',
     active: true,
     applies_extended: false,
     global: true,
@@ -23,7 +23,7 @@ ClientScript({
 BusinessRule({
     $id: Now.ID['br0'],
     action: ['update'],
-    table: 'incident',
+    table: 'x_756426_ssce_res_country',
     script: showStateUpdate,
     name: 'LogStateChange',
     order: 100,
@@ -33,7 +33,7 @@ BusinessRule({
 
 BusinessRule({
     name: 'BR1',
-    table: 'x_1644142_ekkles_0_donation',
+    table: 'x_756426_ssce_res_country',
     when: 'after',
     action: ['insert'],
     script: Now.include('../server/BR_1.js'),
@@ -47,7 +47,7 @@ BusinessRule({
 
 BusinessRule({
     name: 'BR2',
-    table: 'x_1644142_ekkles_0_donation',
+    table: 'x_756426_ssce_res_country',
     when: 'after',
     action: ['insert'],
     script: Now.include('../server/BR_2.js'),
@@ -61,7 +61,7 @@ BusinessRule({
 
 BusinessRule({
     name: 'BR3',
-    table: 'x_1644142_ekkles_0_donation',
+    table: 'x_756426_ssce_res_country',
     when: 'after',
     action: ['insert'],
     script: script `(function executeRule(current, previous /*null when async*/) {
